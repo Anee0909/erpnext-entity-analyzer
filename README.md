@@ -28,3 +28,43 @@ This project addresses that problem by:
 ---
 
 ## Project Structure
+```text
+erpnext-entity-analyzer/
+├── src/
+│   ├── main.py              # Entry point for entity extraction
+│   ├── extract_schema.py    # Extracts DocType schema from ERPNext JSON
+│   └── extract_logic.py     # Extracts business logic methods
+│
+├── rag/
+│   ├── build_index.py       # Builds embeddings for RAG
+│   ├── query.py             # Semantic query interface
+│   ├── texts.json           # Text chunks for RAG
+│   └── embeddings.npy       # Vector embeddings
+│
+├── output.json              # Extracted SalesInvoice entity data
+├── tests.md                 # Test scenarios and test cases
+├── notes.md                 # Implementation notes
+├── README.md                # Project documentation
+└── .gitignore               # Ignored files
+```
+
+⚠️ Make sure:
+- Triple backticks ``` are included
+- `text` is written after the first backticks
+
+---
+
+### 🔹 Step 4: Save & Exit nano
+
+- Press **Ctrl + O** → Enter  
+- Press **Ctrl + X**
+
+---
+
+### 🔹 Step 5: Commit & push
+
+```bash
+git add README.md
+git commit -m "Add project structure section"
+git push origin main
+
