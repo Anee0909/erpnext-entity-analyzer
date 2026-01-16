@@ -48,23 +48,4 @@ erpnext-entity-analyzer/
 └── .gitignore               # Ignored files
 ```
 
-⚠️ Make sure:
-- Triple backticks ``` are included
-- `text` is written after the first backticks
-
----
-
-### 🔹 Step 4: Save & Exit nano
-
-- Press **Ctrl + O** → Enter  
-- Press **Ctrl + X**
-
----
-
-### 🔹 Step 5: Commit & push
-
-```bash
-git add README.md
-git commit -m "Add project structure section"
-git push origin main
 
