@@ -1,0 +1,15 @@
+[
+  {
+    "question": "How is SalesInvoice validated?",
+    "expected_keyword": "validate"
+  },
+  {
+    "question": "Which method runs on submit?",
+    "expected_keyword": "on_submit"
+  },
+  {
+    "question": "What field stores the customer?",
+    "expected_keyword": "customer"
+  }
+]
+
